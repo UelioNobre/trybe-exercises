@@ -137,3 +137,9 @@ ls -l | grep txt
 ```sh
 ls -l | grep -E 'txt|tbt'$
 ```
+
+14. Acesse o manual do comando ls.
+
+```sh
+man ls
+```
