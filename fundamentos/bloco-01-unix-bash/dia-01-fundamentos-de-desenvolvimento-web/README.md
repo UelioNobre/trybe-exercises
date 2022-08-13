@@ -63,3 +63,9 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 ```sh
 cat coutries.txt.
 ```
+
+3. Mostre o conteúdo de `countries.txt`, página por página, até encontrar a Zambia.
+
+```sh
+less countries.txt
+```
