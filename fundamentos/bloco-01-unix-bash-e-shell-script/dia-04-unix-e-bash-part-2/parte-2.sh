@@ -16,3 +16,9 @@ echo "3 - Mude a permissão do arquivo bunch_of_things.txt para leitura e escrit
 chmod 666 bunch_of_things.txt
 echo "$(ls -l)"
 sleep $delay
+
+# Exercicio 4
+echo "4 - Tira a permissão de escrita do arquivo `bunch_of_things.txt` para todos os usuarios e confere com o comando `ls -l`"
+chmod ugo-w bunch_of_things.txt
+echo "$(ls -l)"
+sleep $delay
