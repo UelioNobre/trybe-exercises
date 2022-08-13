@@ -55,8 +55,15 @@ sleep $long_delay
 echo "Linhas que não contem br $(cat phrases2.txt | grep -v 'br' | wc -l)."
 sleep $long_delay
 
+# Exercício 9
+echo "Adicione dois nomes de países ao final do arquivo phrases2.txt."
+tail -2 ../countries.txt >> phrases2.txt
+
+
+
+
 echo "\nApaga o diretório unix_tests"
-cd ../ && rm -fr unix_tests
+# cd ../ && rm -fr unix_tests
 sleep $long_delay
 
 echo "Fim do exercício"

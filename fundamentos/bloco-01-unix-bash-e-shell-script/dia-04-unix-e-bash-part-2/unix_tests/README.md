@@ -18,6 +18,8 @@
 
 8. Conte o número de linhas que não contêm as letras br.
 
+9. Adicione dois nomes de países ao final do arquivo phrases2.txt.
+
 ---
 
 Os comandos para estes exercícios estão nos arquivos:
