@@ -1,4 +1,6 @@
-# Parte I - Criação de arquivos e diretórios
+# Exercícios
+
+## Parte I - Criação de arquivos e diretórios
 
 **Dica:** Para criação de arquivos vazios você pode utilizar o comando `touch nome-do-arquivo.extensao`.
 
@@ -114,7 +116,7 @@ $ rm *.txt
 
 ---
 
-# Parte II - Manipulação & Busca
+## Parte II - Manipulação & Busca
 
 1. Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 
