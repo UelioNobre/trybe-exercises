@@ -21,3 +21,5 @@
 9. Apague a pasta backup.
 
 10. Renomeie a pasta backup2 para backup.
+
+11. Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
