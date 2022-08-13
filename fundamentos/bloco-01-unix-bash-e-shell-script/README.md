@@ -14,6 +14,8 @@
 
 6. Crie um novo arquivo chamado phrases2.txt pelo terminal e adicione algumas frases de sua escolha.
 
+7. Conte o número de linhas que contêm as letras br.
+
 ---
 
 Os comandos para estes exercícios estão nos arquivos:
