@@ -1,6 +1,6 @@
 #!/bin/bash
 
-long_delay=3
+long_delay=2
 
 # REQUERIMENTS
 echo "Criando diretório unix_tests"
@@ -30,7 +30,7 @@ echo "CSS" >> skills2.txt
 sleep $long_delay
 
 # Exercício 4
-echo "Linhas do arquivo skills2.txt: $(cat skills2.txt | wc -l )"
+echo "Linhas do arquivo skills2.txt - $(cat skills2.txt | wc -l )"
 sleep $long_delay
 
 # Exercício 5
@@ -38,7 +38,21 @@ sleep $long_delay
 cat skills2.txt | sort | head -n 3 > top_skills.txt
 sleep $long_delay
 
+# Exercício 6
+touch phrases2.txt
+echo "Enquanto visamos o próximo século, líderes serão aqueles que empoderarão outros." >> phrases2.txt
+echo "Liderança é a arte de fazer com que uma pessoa faça o que você quer porque ela quer fazer isso." >> phrases2.txt
+echo "A seleção brasileira perdeu de 7x1 para Alemanha." >> phrases2.txt
+echo "O que você faz tem mais impacto do que o que você diz." >> phrases2.txt
+echo "Você não precisa de um título para agir como líder." >> phrases2.txt
+sleep $long_delay
+
+# Exercício 7
+echo "O arquivo phrases tem $(cat phrases2.txt | grep 'br' | wc -l) que contem as letras br."
+sleep $long_delay
+
 echo "\nApaga o diretório unix_tests"
 cd ../ && rm -fr unix_tests
+sleep $long_delay
 
 echo "Fim do exercício"
