@@ -27,3 +27,5 @@
 ---
 
 ## Parte 2 - Permissões
+
+1. Navegue até a pasta unix_tests;
