@@ -52,9 +52,13 @@ sleep $long_delay
 
 # Exercício 9
 echo "Adicione dois nomes de países ao final do arquivo phrases2.txt."
-tail -2 ../countries.txt >> phrases2.txt
+tail -2 countries.txt >> phrases2.txt
+sleep $long_delay
 
-
+# Exercício 10
+echo "Cria arquivo bunch_of_things.txt com conteudos de phrases2.txt e countries.txt"
+cat phrases2.txt countries.txt > bunch_of_things.txt
+sleep $long_delay
 
 
 echo "\nApaga o diretório unix_tests"

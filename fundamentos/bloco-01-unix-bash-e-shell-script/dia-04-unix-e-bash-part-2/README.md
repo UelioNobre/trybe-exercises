@@ -20,6 +20,8 @@
 
 9. Adicione dois nomes de países ao final do arquivo phrases2.txt.
 
+10. Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt
+
 ---
 
 Os comandos para estes exercícios estão nos arquivos:
