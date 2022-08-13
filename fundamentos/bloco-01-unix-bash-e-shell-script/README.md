@@ -4,6 +4,12 @@
 
 1. Navegue até a pasta `unix_tests`;
 
+2. Crie um arquivo texto pelo terminal com o nome `skills2.txt` e adicione os valores `Internet`, `Unix` e `Bash`, um em cada linha.
+
+3. Adicione mais 5 itens à sua lista de skills e depois imprima a lista ordenada no terminal. 🤓
+
+---
+
 Os comandos para estes exercícios estão nos arquivos:
 
 - parte-1.sh
