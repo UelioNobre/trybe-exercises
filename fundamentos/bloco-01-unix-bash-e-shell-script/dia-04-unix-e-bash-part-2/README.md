@@ -25,3 +25,5 @@
 11. Crie um novo arquivo bunch_of_things_ordered.txt com o conteúdo do arquivo bunch_of_things.txt ordenado.
 
 ---
+
+## Parte 2 - Permissões
