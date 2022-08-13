@@ -22,3 +22,8 @@ echo "4 - Tira a permissão de escrita do arquivo `bunch_of_things.txt` para tod
 chmod ugo-w bunch_of_things.txt
 echo "$(ls -l)"
 sleep $delay
+
+# Exercicio 5
+echo "5 - Volta a permissão 644 do arquivo bunch_of_things.txt"
+chmod 644 bunch_of_things.txt
+sleep $delay
