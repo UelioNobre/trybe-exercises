@@ -77,3 +77,9 @@ less countries.txt
 ```
 
 Agora digite `/Zambia`
+
+5. Busque por Brazil no countries.txt.
+
+```sh
+cat countries.txt | grep Brazil
+```
