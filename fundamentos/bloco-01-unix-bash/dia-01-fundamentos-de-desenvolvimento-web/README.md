@@ -13,3 +13,7 @@
 5. Dentro de `unix_tests`, crie um novo diretório chamado `backup`.
 
 6. Mova o arquivo `trybe_backup.txt` para o diretório `backup`.
+
+7. Dentro de `unix_tests`, crie um novo diretório chamado `backup2`.
+
+8. Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
