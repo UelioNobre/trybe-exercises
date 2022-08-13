@@ -51,6 +51,10 @@ sleep $long_delay
 echo "O arquivo phrases tem $(cat phrases2.txt | grep 'br' | wc -l) que contem as letras br."
 sleep $long_delay
 
+# Exercício 8
+echo "Linhas que não contem br $(cat phrases2.txt | grep -v 'br' | wc -l)."
+sleep $long_delay
+
 echo "\nApaga o diretório unix_tests"
 cd ../ && rm -fr unix_tests
 sleep $long_delay

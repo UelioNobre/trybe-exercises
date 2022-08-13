@@ -16,6 +16,8 @@
 
 7. Conte o número de linhas que contêm as letras br.
 
+8. Conte o número de linhas que não contêm as letras br.
+
 ---
 
 Os comandos para estes exercícios estão nos arquivos:
