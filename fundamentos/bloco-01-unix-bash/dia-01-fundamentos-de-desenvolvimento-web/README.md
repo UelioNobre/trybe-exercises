@@ -69,3 +69,11 @@ cat countries.txt.
 ```sh
 less countries.txt
 ```
+
+4. Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+
+```sh
+less countries.txt
+```
+
+Agora digite `/Zambia`
