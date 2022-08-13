@@ -65,10 +65,3 @@ sleep $long_delay
 # Exercício 11
 echo "11 - Cria arquivo bunch_of_things_ordered com o conteúdo do arquivo bunch_of_things ordenado."
 sort < bunch_of_things.txt > bunch_of_things_ordered.txt
-
-
-echo "\nApaga o diretório unix_tests"
-# cd ../ && rm -fr unix_tests
-sleep $long_delay
-
-echo "Fim do exercício"
