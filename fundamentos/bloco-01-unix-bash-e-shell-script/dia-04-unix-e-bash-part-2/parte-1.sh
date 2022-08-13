@@ -2,11 +2,6 @@
 
 long_delay=2
 
-# REQUERIMENTS
-echo "Criando diretório unix_tests"
-mkdir unix_tests
-sleep $long_delay
-
 # Exercício 1
 echo "Acessa o diretório unix_tests"
 cd unix_tests
