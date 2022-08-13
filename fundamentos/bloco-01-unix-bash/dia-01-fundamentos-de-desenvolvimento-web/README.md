@@ -41,5 +41,7 @@ React
 SQL
 ```
 
-14. Mostre na tela as 5 primeiras skills do arquivo skills.txt
+14. Mostre na tela as 5 primeiras skills do arquivo skills.txt.
     `head -5 skills.txt`
+
+15. Mostre na tela as 4 últimas skills do arquivo `skills.txt`. `tail -4 skills.txt`
