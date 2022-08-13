@@ -19,3 +19,5 @@
 8. Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
 
 9. Apague a pasta backup.
+
+10. Renomeie a pasta backup2 para backup.
