@@ -107,3 +107,9 @@ cat -n phrases.txt | grep -v fox
 ```sh
 wc -w phrases.txt
 ```
+
+9. Conte o número de linhas do arquivo `phrases.txt`.
+
+```sh
+wc -l phrases.txt
+```
