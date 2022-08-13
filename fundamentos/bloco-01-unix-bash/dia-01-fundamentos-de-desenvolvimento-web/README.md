@@ -7,3 +7,5 @@
 2. Crie um arquivo de texto com o nome trybe.txt.
 
 3. Crie uma cópia do arquivo trybe.txt com nome trybe_backup.txt.
+
+4. Renomeie o arquivo trybe.txt.
