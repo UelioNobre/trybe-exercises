@@ -29,6 +29,8 @@ echo "Express" >> skills2.txt
 echo "Python" >> skills2.txt
 sleep $long_delay
 
+# Exercício 4
+echo "Linhas do arquivo skills2.txt: $(cat skills2.txt | wc -l )"
 
 echo "\nApaga o diretório unix_tests"
 cd ../ && rm -fr unix_tests

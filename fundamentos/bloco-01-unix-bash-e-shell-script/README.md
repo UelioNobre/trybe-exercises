@@ -8,6 +8,8 @@
 
 3. Adicione mais 5 itens à sua lista de skills e depois imprima a lista ordenada no terminal. 🤓
 
+4. Conte quantas linhas tem o arquivo skills2.txt.
+
 ---
 
 Os comandos para estes exercícios estão nos arquivos:
