@@ -47,3 +47,13 @@ SQL
 15. Mostre na tela as 4 últimas skills do arquivo `skills.txt`. `tail -4 skills.txt`
 
 16. Apague todos os arquivos que terminem em `.txt`. `rm *.txt`
+
+---
+
+# Parte II - Manipulação & Busca
+
+1. Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+
+```sh
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+```
