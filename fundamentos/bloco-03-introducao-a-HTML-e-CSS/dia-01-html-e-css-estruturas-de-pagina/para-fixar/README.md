@@ -9,4 +9,5 @@
 ---
 
 1. Crie um parágrafo para cada pessoa da sua lista.
-   2 - Crie um link entre a sua lista e os parágrafos de pessoas.
+
+2. Crie um link entre a sua lista e os parágrafos de pessoas.
