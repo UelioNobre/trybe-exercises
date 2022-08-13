@@ -10,6 +10,8 @@
 
 4. Conte quantas linhas tem o arquivo skills2.txt.
 
+5. Crie um arquivo chamado top_skills.txt usando o skills2.txt, contendo as 3 primeiras skills em ordem alfabética.
+
 ---
 
 Os comandos para estes exercícios estão nos arquivos:

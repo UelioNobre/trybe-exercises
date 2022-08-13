@@ -32,6 +32,11 @@ sleep $long_delay
 # Exercício 4
 echo "Linhas do arquivo skills2.txt: $(cat skills2.txt | wc -l )"
 
+# Exercício 5
+# Crie um arquivo chamado top_skills.txt usando o skills2.txt, contendo as 3 primeiras skills em ordem alfabética.
+cat skills2.txt | sort | head -n 3 > top_skills.txt
+sleep $long_delay
+
 echo "\nApaga o diretório unix_tests"
 cd ../ && rm -fr unix_tests
 
