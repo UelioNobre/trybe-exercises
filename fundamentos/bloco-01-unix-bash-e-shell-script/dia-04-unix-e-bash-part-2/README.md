@@ -22,6 +22,8 @@
 
 10. Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt
 
+11. Crie um novo arquivo bunch_of_things_ordered.txt com o conteúdo do arquivo bunch_of_things.txt ordenado.
+
 ---
 
 Os comandos para estes exercícios estão nos arquivos:
