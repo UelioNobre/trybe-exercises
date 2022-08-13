@@ -83,3 +83,9 @@ Agora digite `/Zambia`
 ```sh
 cat countries.txt | grep Brazil
 ```
+
+6. Busque novamente por `brazil`, mas agora utilizando o _lower case_.
+
+```sh
+cat countries.txt | grep -i brazil
+```
