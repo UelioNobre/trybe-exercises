@@ -89,3 +89,9 @@ cat countries.txt | grep Brazil
 ```sh
 cat countries.txt | grep -i brazil
 ```
+
+---
+
+> Para os próximos exercícios, crie um novo arquivo chamado `phrases.txt` e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.
+
+---
