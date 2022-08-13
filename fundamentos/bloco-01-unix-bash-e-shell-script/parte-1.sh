@@ -13,7 +13,7 @@ cd unix_tests
 sleep $long_delay
 
 # Exercício 2
-echo "Adiciona Skills ao arquivo skills.txt"
+echo "Adiciona Skills ao arquivo skills2.txt"
 touch skills2.txt
 echo 'Internet' >> skills2.txt
 echo 'Unix' >> skills2.txt
