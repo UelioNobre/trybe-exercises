@@ -31,6 +31,7 @@ sleep $long_delay
 
 # Exercício 4
 echo "Linhas do arquivo skills2.txt: $(cat skills2.txt | wc -l )"
+sleep $long_delay
 
 # Exercício 5
 # Crie um arquivo chamado top_skills.txt usando o skills2.txt, contendo as 3 primeiras skills em ordem alfabética.
