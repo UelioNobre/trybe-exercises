@@ -113,3 +113,9 @@ wc -w phrases.txt
 ```sh
 wc -l phrases.txt
 ```
+
+10. Crie os arquivos empty.tbt e empty.pdf.
+
+```sh
+touch empty.tbt empty.pdf
+```
