@@ -26,7 +26,7 @@ echo "React" >> skills2.txt
 echo "Redux" >> skills2.txt
 echo "Node" >> skills2.txt
 echo "Express" >> skills2.txt
-echo "Python" >> skills2.txt
+echo "CSS" >> skills2.txt
 sleep $long_delay
 
 # Exercício 4
