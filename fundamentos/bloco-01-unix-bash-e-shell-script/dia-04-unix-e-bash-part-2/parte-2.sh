@@ -8,7 +8,7 @@ sleep $delay
 
 # Exercicio 2
 echo "2 - Roda o comando ls para ver permissões dos arquivos"
-echo "$(ls -la)"
+echo "$(ls -l)"
 sleep $delay
 
 # Exercicio 3
