@@ -101,3 +101,9 @@ cat countries.txt | grep -i brazil
 ```sh
 cat -n phrases.txt | grep -v fox
 ```
+
+8. Conte o número de palavras do arquivo `phrases.txt`.
+
+```sh
+wc -w phrases.txt
+```
