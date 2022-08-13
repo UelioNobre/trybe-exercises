@@ -11,3 +11,5 @@
 4. Renomeie o arquivo `trybe.txt`.
 
 5. Dentro de `unix_tests`, crie um novo diretório chamado `backup`.
+
+6. Mova o arquivo `trybe_backup.txt` para o diretório `backup`.
