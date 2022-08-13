@@ -131,3 +131,9 @@ ls -l .
 ```sh
 ls -l | grep txt
 ```
+
+13. Liste todos os arquivos que terminem com `tbt` ou `txt`.
+
+```sh
+ls -l | grep -E 'txt|tbt'$
+```
