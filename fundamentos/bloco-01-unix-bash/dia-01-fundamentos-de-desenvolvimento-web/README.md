@@ -119,3 +119,15 @@ wc -l phrases.txt
 ```sh
 touch empty.tbt empty.pdf
 ```
+
+11. Liste todos os arquivos do diretório `unix_tests`.
+
+```sh
+ls -l .
+```
+
+12. Liste todos os arquivos que terminem com `txt`.
+
+```sh
+ls -l | grep txt
+```
