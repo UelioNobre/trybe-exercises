@@ -1,0 +1,12 @@
+h1,
+p {
+  text-align: center;
+}
+
+li:hover {
+  background-color: rgb(0, 147, 32);
+}
+
+li:active {
+  font-family: "Courier New", Courier, monospace;
+}
