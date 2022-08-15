@@ -4,6 +4,7 @@
   --third: #ff006e;
   --fourth: #8338ec;
   --fifth: #3a86ff;
+  --white: #ffffff;
 }
 
 div:hover {
@@ -28,4 +29,42 @@ div:nth-of-type(4) {
 
 div:nth-of-type(5) {
   background-color: var(--fifth);
+}
+
+div:nth-of-type(1) {
+  background-color: var(--primary);
+}
+
+h3 {
+  padding: 16px;
+}
+
+div:nth-of-type(1) h3 {
+  color: var(--third);
+}
+
+div:nth-of-type(2) h3 {
+  color: var(--white);
+  font-style: oblique;
+  font-size: 40px;
+}
+
+div:nth-of-type(3) h3 {
+  color: var(--white);
+  font-size: 60px;
+  text-align: right;
+}
+
+div:nth-of-type(4) h3 {
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div:nth-of-type(5) h3 {
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
 }
