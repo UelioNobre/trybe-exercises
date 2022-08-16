@@ -68,3 +68,7 @@ div:nth-of-type(5) h3 {
   text-align: center;
   text-decoration: underline;
 }
+
+h3 {
+  color: #000000;
+}
