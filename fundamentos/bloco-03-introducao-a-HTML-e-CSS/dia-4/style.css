@@ -25,3 +25,19 @@ h1 {
   text-align: center;
   width: 300px;
 }
+
+section ul:nth-child(1) {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+section ul:nth-child(1) li:nth-child(1) {
+  display: block;
+  margin: 0 auto;
+}
+
+section ul:nth-child(1) li {
+  display: inline-block;
+  margin: 0 auto;
+}
