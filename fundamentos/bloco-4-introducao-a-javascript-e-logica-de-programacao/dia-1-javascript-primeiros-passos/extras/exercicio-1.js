@@ -9,3 +9,4 @@ console.log(birthYear);
 // birthYear = 2030;
 // birthCity = "Fortaleza";
 // Alterar o valor de uma constante gera um erro de tipo.
+// fim do exercício
