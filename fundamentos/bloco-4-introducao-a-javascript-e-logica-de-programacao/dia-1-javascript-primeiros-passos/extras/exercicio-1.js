@@ -7,3 +7,4 @@ console.log(birthCity);
 console.log(birthYear);
 
 birthYear = 2030;
+birthCity = "Fortaleza";
