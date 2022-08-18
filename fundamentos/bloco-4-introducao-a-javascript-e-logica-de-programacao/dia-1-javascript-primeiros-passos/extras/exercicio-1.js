@@ -6,5 +6,6 @@ console.log(myName);
 console.log(birthCity);
 console.log(birthYear);
 
-birthYear = 2030;
-birthCity = "Fortaleza";
+// birthYear = 2030;
+// birthCity = "Fortaleza";
+// Alterar o valor de uma constante gera um erro de tipo.
