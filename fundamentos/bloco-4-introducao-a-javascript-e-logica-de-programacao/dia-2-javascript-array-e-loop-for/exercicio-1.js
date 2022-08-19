@@ -11,3 +11,7 @@ for (let number of numbers) {
   soma += number;
 }
 console.log("soma: ", soma);
+
+// Exercicio 3
+let media = soma / numbers.length;
+console.log("media: ", media);
