@@ -1,4 +1,4 @@
-const candidatePerson = 79;
+const candidatePerson = 90;
 
 if (candidatePerson < 60) {
   console.log("Você foi reprovada(o)");
