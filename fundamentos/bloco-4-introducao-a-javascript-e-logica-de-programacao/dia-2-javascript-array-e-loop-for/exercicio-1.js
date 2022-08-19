@@ -44,3 +44,13 @@ if (numerosImpares > 0) {
 } else {
   console.log("nenhum valor ímpar encontrado");
 }
+
+// Exercicio 7
+let menorValor = numbers[0];
+
+for (let number of numbers) {
+  if (number < menorValor) {
+    menorValor = number;
+  }
+}
+console.log("menorValor: ", menorValor);
