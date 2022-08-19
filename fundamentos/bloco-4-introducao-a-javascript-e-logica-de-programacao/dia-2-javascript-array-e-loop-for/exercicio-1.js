@@ -61,3 +61,8 @@ for (let i = 1; i <= 25; i += 1) {
   elementos.push(i);
 }
 console.log("elementos: ", elementos);
+
+// Exercicio 9
+for (let numero of elementos) {
+  console.log(numero / 2);
+}
