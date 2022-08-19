@@ -54,3 +54,10 @@ for (let number of numbers) {
   }
 }
 console.log("menorValor: ", menorValor);
+
+// Exercicio 8
+let elementos = [];
+for (let i = 1; i <= 25; i += 1) {
+  elementos.push(i);
+}
+console.log("elementos: ", elementos);
