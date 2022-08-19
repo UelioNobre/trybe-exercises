@@ -17,5 +17,7 @@ const base = 5;
 let height = 8;
 
 const area = base * height;
+console.log("Área", area);
 
 const perimeter = base * 2 + height * 2;
+console.log("Perímetro", perimeter);

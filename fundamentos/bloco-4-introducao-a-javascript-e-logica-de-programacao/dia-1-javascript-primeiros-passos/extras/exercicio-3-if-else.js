@@ -1,0 +1,1 @@
+const candidatePerson = 100;
