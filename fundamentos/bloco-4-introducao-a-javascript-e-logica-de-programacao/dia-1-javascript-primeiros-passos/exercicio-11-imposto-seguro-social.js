@@ -1,14 +1,18 @@
-const salarioBruto = 1556;
+const salarioBruto = 5189.81;
 
-let impostoINSS = 0;
+let calculoINSS = 0;
 
 if (salarioBruto <= 1556.94) {
-  console.log("8 %");
+  calculoINSS = salarioBruto * 0.08;
+} else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
+  calculoINSS = salarioBruto * 0.09;
+} else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+  calculoINSS = salarioBruto * 0.11;
 } else {
-  console.log("9 %");
-  console.log("11 %");
-  console.log("570.88");
+  calculoINSS = 570.88;
 }
 
-const salarioLiquido = (1 + 1).toFixed(2);
+let impostoINSS = calculoINSS.toFixed(2);
+
+console.log("impostoINSS:", impostoINSS);
 // console.log("salarioLiquido", salarioLiquido);
