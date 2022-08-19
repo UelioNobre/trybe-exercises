@@ -31,3 +31,16 @@ for (let number of numbers) {
   }
 }
 console.log("maiorNumero: ", maiorNumero);
+
+// Exercicio 6
+let numerosImpares = 0;
+for (let number of numbers) {
+  if (number % 2 !== 0) {
+    numerosImpares += 1;
+  }
+}
+if (numerosImpares > 0) {
+  console.log("numerosImpares: ", numerosImpares);
+} else {
+  console.log("nenhum valor ímpar encontrado");
+}
