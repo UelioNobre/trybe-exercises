@@ -1,4 +1,4 @@
-let salarioBruto = 4000;
+let salarioBruto = 3000;
 
 let calculoINSS = 0;
 
@@ -45,7 +45,9 @@ let calculaAliquota = aliquotaIR * salarioIR;
 let calculaParcela = calculaAliquota - valorDaParcela;
 let salarioLiquido = salarioIR - calculaParcela;
 
-console.log("salarioLiquido:", salarioLiquido);
-console.log("impostoINSS:", impostoINSS);
-console.log("calculaAliquota:", calculaAliquota);
-console.log("valorDaParcela:", valorDaParcela);
+console.log("salarioBruto: \t", salarioBruto);
+console.log("- impostoINSS: \t", impostoINSS);
+console.log("- Aliquota: \t\t", calculaAliquota);
+console.log("- Parcela: \t\t", valorDaParcela);
+console.log("-------------------------------");
+console.log("= salarioLiquido: \t", salarioLiquido);
