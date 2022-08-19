@@ -15,3 +15,10 @@ console.log("soma: ", soma);
 // Exercicio 3
 let media = soma / numbers.length;
 console.log("media: ", media);
+
+// Exercicio 4
+if (media > 20) {
+  console.log("valor maior que 20");
+} else {
+  console.log("valor menor ou igual a 20");
+}
