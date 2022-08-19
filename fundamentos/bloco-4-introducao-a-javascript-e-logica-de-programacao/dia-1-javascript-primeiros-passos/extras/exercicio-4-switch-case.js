@@ -1,5 +1,7 @@
 let status;
 
+status = "aprovada";
+
 switch (status) {
   case "reprovada":
     console.log("Você foi reprovada(o)");
