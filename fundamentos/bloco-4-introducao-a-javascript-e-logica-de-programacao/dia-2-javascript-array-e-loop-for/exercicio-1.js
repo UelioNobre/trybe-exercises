@@ -22,3 +22,12 @@ if (media > 20) {
 } else {
   console.log("valor menor ou igual a 20");
 }
+
+// Exercicio 5
+let maiorNumero = numbers[0];
+for (let number of numbers) {
+  if (number > maiorNumero) {
+    maiorNumero = number;
+  }
+}
+console.log("maiorNumero: ", maiorNumero);
