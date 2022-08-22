@@ -3,7 +3,7 @@
 // pessoa mais nova no formato: "Pessoa" é a mais nova.
 
 let a = 2;
-let b = 2;
+let b = 3;
 let c = 2;
 
 let condA = (a < b && a < c)
@@ -16,6 +16,4 @@ if (condA) {
   console.log('b é Menor')
 } else if (condC) {
   console.log('c é Menor')
-} else {
-  console.log('nenhum')
 }
