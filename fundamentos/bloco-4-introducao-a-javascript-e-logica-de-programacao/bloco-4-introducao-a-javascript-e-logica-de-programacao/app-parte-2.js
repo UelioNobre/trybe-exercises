@@ -86,3 +86,11 @@ function somatorio(limite) {
   return soma
 }
 console.log(somatorio(5))
+console.log()
+
+// 7
+function finalIgual(word, ending) {
+  return word.substring(word.length-ending.length) === ending
+}
+console.log(finalIgual('trybe', 'be'))
+console.log(finalIgual('joaofernando', 'fernan'))
