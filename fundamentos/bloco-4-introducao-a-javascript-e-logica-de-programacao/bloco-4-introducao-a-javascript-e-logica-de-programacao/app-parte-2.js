@@ -1,13 +1,13 @@
 // 1
 
 function palindromo(palavra) {
-  let reverse = palavra.split('').reverse().join('')
-  return palavra === reverse
+  let reverse = palavra.split('').reverse().join('');
+  return palavra === reverse;
 }
 
-console.log(palindromo('arara'))
-console.log(palindromo('desenvolvimento'))
-console.log()
+console.log(palindromo('arara'));
+console.log(palindromo('desenvolvimento'));
+console.log();
 
 // 2
 function maiorValor(array) {
@@ -18,6 +18,7 @@ function maiorValor(array) {
   return array.indexOf(maior);
 }
 console.log(maiorValor([2, 3, 6, 7, 10, 1]));
+console.log();
 
 // 3
 function menorValor(array) {
@@ -28,3 +29,22 @@ function menorValor(array) {
   return array.indexOf(menor);
 }
 console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));
+console.log();
+
+// 4 
+function maiorNome(array) {
+  let maior = 0;
+  let maiorNome = '';
+
+  for (let index = 0; index < array.length; index += 1){
+    if (array[index].length > maior) {
+      maior = array[index].length;
+      maiorNome = array[index];
+    }
+  }
+
+  return maiorNome;
+}
+let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+console.log(maiorNome(nomes));
+console.log();
