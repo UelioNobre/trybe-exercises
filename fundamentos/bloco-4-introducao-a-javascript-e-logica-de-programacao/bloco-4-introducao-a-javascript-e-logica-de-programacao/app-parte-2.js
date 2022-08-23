@@ -51,7 +51,7 @@ console.log();
 
 // 5
 function maximoRepetido(numeros) {
-  
+
   let maior = 0;
   let maiorIndex = 0;
   let contador = {};
@@ -75,3 +75,14 @@ function maximoRepetido(numeros) {
 let numeros = [2, 3, 2, 5, 8, 2, 3]
 let numeroRepetido = maximoRepetido(numeros)
 console.log(numeroRepetido)
+console.log()
+
+// 6
+function somatorio(limite) {
+  let soma = 0
+
+  if (limite < 0) return; // Sai caso negativo
+  for (let numero = 1; numero <= limite; numero += 1) soma += numero;
+  return soma
+}
+console.log(somatorio(5))
