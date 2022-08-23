@@ -48,3 +48,30 @@ function maiorNome(array) {
 let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 console.log(maiorNome(nomes));
 console.log();
+
+// 5
+function maximoRepetido(numeros) {
+  
+  let maior = 0;
+  let maiorIndex = 0;
+  let contador = {};
+
+  for (let numero of numeros) {
+    if (!contador[numero]) {
+      contador[numero] = 0;
+    } 
+    contador[numero] += 1;
+  }
+
+  for (let index in contador) {
+    if (contador[index] > maior) {
+      maior = contador[index]
+      maiorIndex = index
+    }
+  }
+
+  return maiorIndex
+}
+let numeros = [2, 3, 2, 5, 8, 2, 3]
+let numeroRepetido = maximoRepetido(numeros)
+console.log(numeroRepetido)
