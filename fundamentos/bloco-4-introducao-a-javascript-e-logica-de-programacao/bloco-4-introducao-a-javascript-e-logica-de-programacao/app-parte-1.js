@@ -11,3 +11,8 @@ console.log(`Bem-vinda, ${info.personagem}`)
 // 2
 info['recorrente'] = 'Sim';
 console.log(info.recorrente)
+
+// 3
+for (let chaves in info) {
+  console.log(chaves)
+}
