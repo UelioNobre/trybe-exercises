@@ -53,3 +53,10 @@ let nome = leitor.nome  + ' ' + leitor.sobrenome
 let livroFavorito = leitor.livrosFavoritos[0].titulo
 
 console.log(`O livro favorito de ${nome} se chama '${livroFavorito}'`)
+
+// 7
+leitor.livrosFavoritos.push({
+  titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+  autor: 'JK Rowling',
+  editora: 'Rocco',
+})
