@@ -98,6 +98,20 @@
         console.log(title)
       }
       exercicio4()
+
+      /*
+      5. Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
+      */
+      function exercicio5() {
+        let paragrafos = document.getElementsByTagName('p');
+        for (let tagP of paragrafos) {
+          tagP.style.textTransform = 'uppercase'
+          console.log(tagP);
+        }
+        // console.log(paragrafos)
+
+      }
+      exercicio5();
     </script>
   </body>
 
