@@ -112,6 +112,18 @@
 
       }
       exercicio5();
+
+      /*
+      6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+      */
+      function exercicio6() {
+        let paragrafos = document.getElementsByTagName('p');
+        console.log('\nExercicio 6')
+        for (let tagP of paragrafos) {
+          console.log(tagP.innerText);
+        }
+      }
+      exercicio6();
     </script>
   </body>
 
