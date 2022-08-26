@@ -118,6 +118,13 @@
       // 🚀 Adicione a classe title na tag h1 criada;
       tagH1.className = 'title'
 
+      // 🚀 Adicione a classe description nas 3 tags h3 criadas;
+      let tagsH3 = document.getElementsByTagName('h3');
+      for (let tH3 of tagsH3) {
+        tH3.className = 'description'
+        console.log(tH3)
+      }
+
     </script>
   </body>
 
