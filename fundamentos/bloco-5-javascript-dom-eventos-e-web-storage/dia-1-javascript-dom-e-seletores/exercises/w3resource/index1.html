@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+  </head>
+
+  <body>
+    <p id='text'>JavaScript Exercises - w3resource</p>
+    <div>
+      <button id="jsstyle" onclick="js_style()">Style</button>
+    </div>
+
+    <script>
+      function js_style() {
+        let pTag = document.getElementById('text').style;
+        pTag.transition = '0.5s ease-in-out';
+        pTag.boxSizing = 'border-box';
+        pTag.width = '80%';
+        pTag.padding = '1rem';
+        pTag.fontFamily = 'sans-serif';
+        pTag.margin = '2rem auto';
+        pTag.textAlign = 'center';
+
+
+        setTimeout(() => {
+          pTag.color = 'green';
+          pTag.border = '4px solid green';
+        }, 1000);
+
+        setTimeout(() => {
+          pTag.color = 'purple';
+          pTag.border = '10px solid purple';
+        }, 2000);
+
+        setTimeout(() => {
+          pTag.color = 'green';
+          pTag.border = '2px solid green';
+        }, 3000);
+
+        setTimeout(() => {
+          pTag.color = 'purple';
+          pTag.borderLeft = '15px solid purple';
+          pTag.borderRight = '15px solid green';
+          pTag.borderTop = '15px solid blue';
+          pTag.borderBottom = '15px solid orange';
+        }, 4000);
+      }
+    </script>
+  </body>
+
+</html>
