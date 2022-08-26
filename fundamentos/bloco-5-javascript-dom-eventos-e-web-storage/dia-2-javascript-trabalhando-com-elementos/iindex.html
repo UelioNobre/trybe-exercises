@@ -99,6 +99,17 @@
       tagImg.className = 'small-image'
       tagSectionLeft.appendChild(tagImg)
 
+      // 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+      const numerosPorExtenso = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      const tagUl = document.createElement('ul');
+      for (let numExtenso of numerosPorExtenso) {
+        let tagLi = document.createElement('li');
+        tagLi.innerText = numExtenso;
+        tagUl.append(tagLi);
+      }
+      tagSectionRight.appendChild(tagUl)
+
+
     </script>
   </body>
 
