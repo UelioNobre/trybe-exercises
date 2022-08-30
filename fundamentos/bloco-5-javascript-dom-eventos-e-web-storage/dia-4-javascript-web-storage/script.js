@@ -2,12 +2,14 @@ const selectBackground = document.querySelector('#backGround');
 const textColor = document.querySelector('#textColor');
 const textSize = document.querySelector('#textSize');
 const textLineHeight = document.querySelector('#textLineHeight');
+const textFontFamily = document.querySelector('#textFontFamily');
 
 
 selectBackground.addEventListener('change', changeBackground)
 textColor.addEventListener('change', changeTextColor)
 textSize.addEventListener('change', changeTextSize)
 textLineHeight.addEventListener('change', changeTextLineHeight)
+textFontFamily.addEventListener('change', changeTextFontFamily)
 
 console.log(selectBackground)
 
@@ -39,6 +41,15 @@ function changeTextLineHeight(e) {
   const tagsP = document.getElementsByTagName('p');
   for (let tagP of tagsP) {
     tagP.style.lineHeight = e.target.value + '%';
+  }
+  console.log(tagsP)
+}
+
+// 5 
+function changeTextFontFamily(e) {
+  const tagsP = document.getElementsByTagName('p');
+  for (let tagP of tagsP) {
+    tagP.style.fontFamily = e.target.value;
   }
   console.log(tagsP)
 }
