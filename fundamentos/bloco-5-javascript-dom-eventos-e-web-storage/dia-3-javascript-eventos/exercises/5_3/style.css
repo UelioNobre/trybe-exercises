@@ -153,3 +153,9 @@ label {
   margin: 0px;
   padding: 10px 0;
 }
+
+/* Exercicio 3 */
+.holiday-color {
+  background-color: rgb(107, 27, 193);
+  color: white !important;
+}

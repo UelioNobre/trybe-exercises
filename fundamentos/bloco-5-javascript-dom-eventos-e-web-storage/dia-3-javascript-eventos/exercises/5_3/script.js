@@ -44,6 +44,15 @@ function createHolidaysButton(label) {
   const container = document.querySelector('.buttons-container');
   const tagButton = document.createElement('button');
   tagButton.innerText = label;
+  tagButton.addEventListener('click', addHolidaysColors);
   container.appendChild(tagButton);
 }
 createHolidaysButton('Feriados');
+
+function addHolidaysColors() {
+  const holidays = document.querySelectorAll('.holiday');
+  for (let holiday of holidays) {
+    holiday.classList.toggle("holiday-color");
+    console.log(holiday);
+  }
+}
