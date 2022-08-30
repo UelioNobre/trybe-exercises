@@ -103,7 +103,9 @@ function createTodo(todo) {
 function createDiv(color) {
   const myTasks = document.querySelector('.my-tasks');
   const tagDiv = document.createElement('div');
+
   tagDiv.style.backgroundColor = color;
-  tagDiv.className = 'task selected';
+  tagDiv.className = 'task';
   myTasks.appendChild(tagDiv);
 }
+
