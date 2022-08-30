@@ -56,3 +56,14 @@ function addHolidaysColors() {
     console.log(holiday);
   }
 }
+
+// Ex 4
+function createFridayBtn(label) {
+  const container = document.querySelector('.buttons-container');
+  const tagButton = document.createElement('button');
+  tagButton.innerText = label;
+  tagButton.setAttribute('id', 'btn-friday');
+  container.appendChild(tagButton);
+}
+
+createFridayBtn('Sexta-feira');
