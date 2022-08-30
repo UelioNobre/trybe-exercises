@@ -24,7 +24,6 @@ function changeTextColor(e) {
   for (let tagP of tagsP) {
     tagP.style.color = e.target.value;
   }
-  console.log(tagsP)
 }
 
 // 3
@@ -33,7 +32,6 @@ function changeTextSize(e) {
   for (let tagP of tagsP) {
     tagP.style.fontSize = e.target.value + 'px';
   }
-  console.log(tagsP)
 }
 
 // 4
@@ -42,7 +40,6 @@ function changeTextLineHeight(e) {
   for (let tagP of tagsP) {
     tagP.style.lineHeight = e.target.value + '%';
   }
-  console.log(tagsP)
 }
 
 // 5 
@@ -51,5 +48,4 @@ function changeTextFontFamily(e) {
   for (let tagP of tagsP) {
     tagP.style.fontFamily = e.target.value;
   }
-  console.log(tagsP)
 }
