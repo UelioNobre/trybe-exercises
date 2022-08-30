@@ -1,11 +1,13 @@
 const selectBackground = document.querySelector('#backGround');
 const textColor = document.querySelector('#textColor');
 const textSize = document.querySelector('#textSize');
+const textLineHeight = document.querySelector('#textLineHeight');
 
 
 selectBackground.addEventListener('change', changeBackground)
 textColor.addEventListener('change', changeTextColor)
 textSize.addEventListener('change', changeTextSize)
+textLineHeight.addEventListener('change', changeTextLineHeight)
 
 console.log(selectBackground)
 
@@ -28,6 +30,15 @@ function changeTextSize(e) {
   const tagsP = document.getElementsByTagName('p');
   for (let tagP of tagsP) {
     tagP.style.fontSize = e.target.value + 'px';
+  }
+  console.log(tagsP)
+}
+
+// 4
+function changeTextLineHeight(e) {
+  const tagsP = document.getElementsByTagName('p');
+  for (let tagP of tagsP) {
+    tagP.style.lineHeight = e.target.value + '%';
   }
   console.log(tagsP)
 }
