@@ -98,3 +98,12 @@ function createTodo(todo) {
   tagSpan.innerText = todo
   myTasks.appendChild(tagSpan)
 }
+
+// Ex 8
+function createDiv(color) {
+  const myTasks = document.querySelector('.my-tasks');
+  const tagDiv = document.createElement('div');
+  tagDiv.style.backgroundColor = color;
+  tagDiv.className = 'task selected';
+  myTasks.appendChild(tagDiv);
+}
