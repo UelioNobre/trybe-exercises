@@ -38,3 +38,12 @@ for (let day of decemberDaysList) {
 
   dayContainer.appendChild(dayLI);
 }
+
+// Implemente uma função que crie dinamicamente um botão com o nome "Feriados".
+function createHolidaysButton(label) {
+  const container = document.querySelector('.buttons-container');
+  const tagButton = document.createElement('button');
+  tagButton.innerText = label;
+  container.appendChild(tagButton);
+}
+createHolidaysButton('Feriados');
