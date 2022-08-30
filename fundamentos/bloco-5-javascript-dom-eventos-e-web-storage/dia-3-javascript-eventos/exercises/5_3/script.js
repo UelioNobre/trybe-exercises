@@ -37,6 +37,8 @@ for (let day of decemberDaysList) {
   }
 
   dayContainer.appendChild(dayLI);
+  dayLI.addEventListener('mouseover', daysZoomIn)
+  dayLI.addEventListener('mouseleave', daysZoomOut)
 }
 
 // Implemente uma função que crie dinamicamente um botão com o nome "Feriados".
@@ -76,4 +78,15 @@ function showFridays() {
     friday.classList.toggle("friday-color");
     console.log(friday);
   }
+}
+
+
+// Ex 6
+function daysZoomIn(event) {
+  event.target.style.transform = 'scale(1.7)';
+  event.target.style.transition = "all 0.3s"
+}
+
+function daysZoomOut(event) {
+  event.target.style.transform = 'scale(1)';
 }
