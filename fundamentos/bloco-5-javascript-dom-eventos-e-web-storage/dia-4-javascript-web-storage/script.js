@@ -13,12 +13,12 @@ textFontFamily.addEventListener('change', changeTextFontFamily)
 
 console.log(selectBackground)
 
-// 1
+// 1 Background
 function changeBackground(e) {
   document.querySelector('body').style.backgroundColor = e.target.value;
 }
 
-// 2
+// 2 Text Color
 function changeTextColor(e) {
   const tagsP = document.getElementsByTagName('p');
   for (let tagP of tagsP) {
@@ -26,7 +26,7 @@ function changeTextColor(e) {
   }
 }
 
-// 3
+// 3 Font Size
 function changeTextSize(e) {
   const tagsP = document.getElementsByTagName('p');
   for (let tagP of tagsP) {
@@ -34,7 +34,7 @@ function changeTextSize(e) {
   }
 }
 
-// 4
+// 4 Line Height
 function changeTextLineHeight(e) {
   const tagsP = document.getElementsByTagName('p');
   for (let tagP of tagsP) {
@@ -42,7 +42,7 @@ function changeTextLineHeight(e) {
   }
 }
 
-// 5 
+// 5 Font Family
 function changeTextFontFamily(e) {
   const tagsP = document.getElementsByTagName('p');
   for (let tagP of tagsP) {
