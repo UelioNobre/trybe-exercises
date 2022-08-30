@@ -30,11 +30,11 @@ for (let day of decemberDaysList) {
   
   if (holidays.includes(day)) {
     dayLI.className += ' holiday';
-  } else if (fridays.includes(day)) {
+  }
+  
+  if (fridays.includes(day)) {
     dayLI.className += ' friday';
   }
-
-  
 
   dayContainer.appendChild(dayLI);
 }
@@ -63,7 +63,17 @@ function createFridayBtn(label) {
   const tagButton = document.createElement('button');
   tagButton.innerText = label;
   tagButton.setAttribute('id', 'btn-friday');
+  tagButton.addEventListener('click', showFridays);
   container.appendChild(tagButton);
 }
 
 createFridayBtn('Sexta-feira');
+
+// Ex 5
+function showFridays() {
+  const fridays = document.querySelectorAll('.friday');
+  for (let friday of fridays) {
+    friday.classList.toggle("friday-color");
+    console.log(friday);
+  }
+}

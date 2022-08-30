@@ -157,5 +157,9 @@ label {
 /* Exercicio 3 */
 .holiday-color {
   background-color: rgb(107, 27, 193);
-  color: white !important;
+}
+
+/* Exercicio 5 */
+.friday-color {
+  color: red !important;
 }
