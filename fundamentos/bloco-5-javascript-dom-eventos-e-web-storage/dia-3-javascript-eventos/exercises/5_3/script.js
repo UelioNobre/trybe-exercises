@@ -90,3 +90,11 @@ function daysZoomIn(event) {
 function daysZoomOut(event) {
   event.target.style.transform = 'scale(1)';
 }
+
+// Ex 7
+function createTodo(todo) {
+  const myTasks = document.querySelector('.my-tasks');
+  const tagSpan = document.createElement('span');
+  tagSpan.innerText = todo
+  myTasks.appendChild(tagSpan)
+}
