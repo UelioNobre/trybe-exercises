@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      let tagBody = document.querySelector('body');
+      console.log(tagBody);
+
+      // Exercicio 1
+      const tagH1 = document.createElement('h1');
+      tagH1.innerText = 'Exercício 5.2 - JavaScript DOM';
+      tagBody.appendChild(tagH1)
+
+      // Exercicio 2
+      const tagMain = document.createElement('main');
+      tagMain.className = 'main-content';
+      tagBody.appendChild(tagMain)
+
+      //  Exercicio 3
+      const tagSectionCenter = document.createElement('section');
+      tagSectionCenter.className = 'center-content';
+      tagMain.appendChild(tagSectionCenter)
+
+      //  Exercicio 4
+      const tagP = document.createElement('p');
+      tagP.innerText = 'Manipular o DOM com Javascript é incrível!';
+      tagSectionCenter.appendChild(tagP);
+
+      //  Exercicio 5
+      const tagSectionLeft = document.createElement('section');
+      tagSectionLeft.className = 'left-content';
+      tagMain.appendChild(tagSectionLeft);
+
+      //  Exercicio 6
+      const tagSectionRight = document.createElement('section');
+      tagSectionRight.className = 'right-content';
+      tagMain.appendChild(tagSectionRight);
+
+      //  Exercicio 7
+      const tagImg = document.createElement('img');
+      tagImg.src = 'https://picsum.photos/200';
+      tagImg.className = 'small-image'
+      tagSectionLeft.appendChild(tagImg)
+
+      // Exercicio 8
+      const numerosPorExtenso = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      const tagUl = document.createElement('ul');
+      for (let numExtenso of numerosPorExtenso) {
+        let tagLi = document.createElement('li');
+        tagLi.innerText = numExtenso;
+        tagUl.append(tagLi);
+      }
+      tagSectionRight.appendChild(tagUl)
+
+      // Exercicio 9
+      for (let index = 0; index < 3; index += 1) {
+        let tagH3 = document.createElement('h3');
+        tagMain.appendChild(tagH3)
+      }
+
+      // Extra - Exercicio 1
+      tagH1.className = 'title'
+
+      // Extra - Exercicio 2
+      let tagsH3 = document.getElementsByTagName('h3');
+      for (let tH3 of tagsH3) {
+        tH3.className = 'description'
+      }
+
+      // Extra -  Exercicio 3
+      tagMain.removeChild(tagSectionLeft)
+
+      // Extra - Exercicio 4
+      tagSectionRight.style.marginRight = 'auto'
+
+      // Extra - Exercicio 5
+      tagSectionCenter.parentElement.style.backgroundColor = 'green';
+
+      // Extra - Exercicio 6
+      tagUl.childNodes[tagUl.childNodes.length - 1].remove()
+      tagUl.childNodes[tagUl.childNodes.length - 1].remove()
+
+    </script>
+  </body>
+
+</html>
