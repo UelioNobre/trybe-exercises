@@ -1,5 +1,6 @@
 const sortition = () => parseInt(Math.random() * 5 + 1, 10);
-const checkResult = (numero, jogo) => numero === jogo();
-const messages = (status) => status === true ? 'Parabéns você ganhou' : 'Tente novamente';
+const checker = (number, game) => number === game();
+const message = (win) => (win === true) ? 'Parabéns você ganhou' : 'Tente novamente';
+const results = (checker) => checker(4, sortition) === true ? message(true) : message(false);
 
-console.log(messages(checkResult(3, sortition)));
+console.log(results(checker));
