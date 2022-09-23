@@ -1,3 +1,5 @@
+// Verifica se são "de maior".
+
 const people = [
   { name: 'Mateus', age: 18 },
   { name: 'José', age: 16 },
@@ -6,8 +8,5 @@ const people = [
   { name: 'Bruna', age: 19 },
 ];
 
-const verifyAges = (arr, minimumAge) => {
-  //Adicione seu código aqui
-};
-
-console.log(verifyAges(people, 18));
+const verifyAges = (arr, minimumAge) => arr.every((aName) => aName.age >= minimumAge);
+console.log(verifyAges(people, 18)); 
