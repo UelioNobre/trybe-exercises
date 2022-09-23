@@ -7,6 +7,12 @@ const people = [
 ];
 
 // Adicione se código aqui
-people.sort((a, b) => a.age > b.age ? 1 : -1);
+const peopleAsc = Array.from(people);
+const peopleDesc = Array.from(people);
 
-console.log(people);
+peopleAsc.sort((a, b) => a.age > b.age ? 1 : -1);
+peopleDesc.sort((a, b) => b.age > a.age ? 1 : -1);
+
+console.log('Original:', people);
+console.log('Asc age: ', peopleAsc);
+console.log('Desc age: ', peopleDesc);
