@@ -83,5 +83,12 @@ function smallerName() {
   return nameBook;
 }
 
+const expectedResult = true;
+
+function someBookWasReleaseOnThe80s() {
+  return books.some((book) => book.releaseYear >= 1980 && book.releaseYear < 1990)
+}
+
 console.log('authorsBornIn1794', authorBornIn1947());
 console.log('smallerName', smallerName());
+console.log('someBookWasReleaseOnThe80s', someBookWasReleaseOnThe80s());
