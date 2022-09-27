@@ -8,6 +8,7 @@ const expectedResult = [
   'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
 ];
 
+// FORMATED NAME
 describe('Testa formatedBookName', () => {
   it('Verica se formatedBookName é uma função', () => {
     expect(typeof formatedBookNames).toBe('function');
@@ -33,3 +34,5 @@ describe('Testa formatedBookName', () => {
     expect(formatedBookNames()).toEqual(expect.arrayContaining(expectedResult));
   });
 });
+
+// NAME AND AGE
