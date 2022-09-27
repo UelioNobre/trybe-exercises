@@ -67,7 +67,7 @@ function formatedBookNames() {
 }
 
 function nameAndAge() {
-  // escreva seu código aqui 
+  return ''; 
 }
 
 module.exports = { formatedBookNames, nameAndAge };

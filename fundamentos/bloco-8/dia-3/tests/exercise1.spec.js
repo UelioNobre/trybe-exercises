@@ -45,7 +45,7 @@ describe('Testa a função nameAndAge', () => {
     expect(nameAndAge()).not.toBeUndefined();
   });
   
-  it('Verica se nameAndAge é um array', () => {
+  it('Verica se nameAndAge retorna um array', () => {
     expect(Array.isArray(nameAndAge())).toBeTruthy();
   });
   
