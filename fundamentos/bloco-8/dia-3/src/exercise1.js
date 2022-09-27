@@ -67,7 +67,7 @@ function formatedBookNames() {
 }
 
 function nameAndAge() {
-  return ''; 
+  return books.map((book) => ({age: book.author.age, name: book.author.name})); 
 }
 
 module.exports = { formatedBookNames, nameAndAge };
