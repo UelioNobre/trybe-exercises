@@ -1,4 +1,4 @@
-const formatedBookNames = require('../src/exercise1');
+const {formatedBookNames, nameAndAge} = require('../src/exercise1');
 const expectedResult = [
   'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
   'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
