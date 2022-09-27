@@ -70,6 +70,6 @@ function nameAndAge() {
   // escreva seu código aqui
 }
 
-module.exports = formatedBookNames;
+module.exports = { formatedBookNames, nameAndAge };
 
 
