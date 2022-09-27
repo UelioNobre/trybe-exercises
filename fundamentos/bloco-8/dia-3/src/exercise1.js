@@ -66,6 +66,10 @@ function formatedBookNames() {
   return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
 }
 
+function nameAndAge() {
+  // escreva seu código aqui
+}
+
 module.exports = formatedBookNames;
 
 
