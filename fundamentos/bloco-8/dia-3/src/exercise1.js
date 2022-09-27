@@ -66,9 +66,18 @@ function formatedBookNames() {
   return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
 }
 
-function nameAndAge() {
-  return books.map((book) => ({age: book.author.age, name: book.author.name})); 
+// Função para calcular a idade
+function countAge(birthYear, releaseYear) {
+  return releaseYear - birthYear;
 }
+
+function nameAndAge() {
+  const booksNameAndAge = books.map((book) => ({ age: countAge(book.author.birthYear, book.releaseYear), name: book.author.name })); 
+  booksNameAndAge.sort((a, b) => a.age - b.age);
+  return booksNameAndAge;
+}
+
+
 
 module.exports = { formatedBookNames, nameAndAge };
 
