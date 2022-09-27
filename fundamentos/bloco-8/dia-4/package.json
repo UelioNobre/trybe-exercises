@@ -1,0 +1,20 @@
+{
+  "name": "execicios-8-4",
+  "version": "1.0.0",
+  "description": "Exercícios realizados durante o período do curso de Software Development, referentes a seção 8, dia 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "reduce",
+    "trybe",
+    "secao8",
+    "dia4"
+  ],
+  "author": "Fransuelio Nobre",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
