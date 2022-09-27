@@ -85,6 +85,7 @@ describe('Testa a função nameAndAge', () => {
   });
 
   it('Verica se formatedBookName retorna um array de objetos com o valor esperado em expectedResult', () => {
-    expect(nameAndAge()).toEqual(expect.objectContaining(expectedResult));
+    console.log(nameAndAge());
+    expect(nameAndAge()).toStrictEqual(expectedResult);
   });
 });

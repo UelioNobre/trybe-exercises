@@ -72,9 +72,9 @@ function countAge(birthYear, releaseYear) {
 }
 
 function nameAndAge() {
-  const booksNameAndAge = books.map((book) => ({ age: countAge(book.author.birthYear, book.releaseYear), name: book.author.name })); 
-  booksNameAndAge.sort((a, b) => a.age - b.age);
-  return booksNameAndAge;
+  const booksNameAndAge = books.map((book) => ({ age: countAge(book.author.birthYear, book.releaseYear), author: book.author.name })); 
+  const booksSortByAuthorAgeAsc = booksNameAndAge.sort((a, b) => a.age - b.age);
+  return booksSortByAuthorAgeAsc;
 }
 
 
