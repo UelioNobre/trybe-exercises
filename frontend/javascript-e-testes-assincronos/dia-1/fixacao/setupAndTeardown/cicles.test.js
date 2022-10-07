@@ -15,6 +15,10 @@ beforeEach(() => {
   cities = [...cities, 'Pindamonhangaba'];
 });
 
+afterEach(() => {
+  cities = [];
+});
+
 // Testes
 test('Testa a função addCity', () => {
   expect.assertions(4);
