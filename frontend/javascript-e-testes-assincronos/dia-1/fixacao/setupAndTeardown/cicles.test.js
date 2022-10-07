@@ -10,6 +10,12 @@ const removeCity = (city) => {
   cities = cities.filter((eachCity) => eachCity !== city);
 };
 
+// Setup
+beforeEach(() => {
+  cities = [...cities, 'Pindamonhangaba'];
+});
+
+// Testes
 test('Testa a função addCity', () => {
   expect.assertions(4);
   addCity('Campinas');
