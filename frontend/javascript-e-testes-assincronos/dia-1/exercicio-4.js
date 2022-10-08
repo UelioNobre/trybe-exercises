@@ -18,8 +18,14 @@ const handleError = (errorReason) =>
 
 // crie a função sendMarsTemperature abaixo
 const sendMarsTemperature = (onSuccess, onError) => {
-  const temperature = getMarsTemperature();
-  onSuccess(temperature);
+  const successRate = Math.floor(Math.random() * 100);
+
+  if (successRate < 60) {
+    const temperature = getMarsTemperature();
+    return onSuccess(temperature);
+  }
+
+  return onError('Timeout');
 }
 
 // Imprime "A temperatura de Marte é: 20 graus celsius", por exemplo
