@@ -13,18 +13,19 @@ const temperatureInFahrenheit = (temperature) =>
 const greet = (temperature) =>
   console.log(`Olá! Curiosity aqui. Nesse momento está ${temperature}ºC em Marte`);
 
+const handleError = (errorReason) =>
+  console.log(`Error getting temperature: ${errorReason}`);
+
 // crie a função sendMarsTemperature abaixo
-const sendMarsTemperature = (callback) => {
+const sendMarsTemperature = (onSuccess, onError) => {
   const temperature = getMarsTemperature();
-  const msg = `A temperatura de Marte é: ${temperature} graus celsius`;
-  callback(temperature);
-  // console.log(msg);
+  onSuccess(temperature);
 }
 
 // Imprime "A temperatura de Marte é: 20 graus celsius", por exemplo
 setTimeout(() => {
   // Definição da função sendMarsTemperature...
-  sendMarsTemperature(temperatureInFahrenheit); // Imprime "Atualmente está 46.4ºF em Marte", por exemplo
-  sendMarsTemperature(greet); // Imprime "Olá! Curiosity aqui. Nesse momento são 36ºC em Marte", por exemplo
+  sendMarsTemperature(temperatureInFahrenheit, handleError); // Imprime "Atualmente está 46.4ºF em Marte", por exemplo
+  sendMarsTemperature(greet, handleError); // Imprime "Olá! Curiosity aqui. Nesse momento são 36ºC em Marte", por exemplo
 }, messageDelay());
 
