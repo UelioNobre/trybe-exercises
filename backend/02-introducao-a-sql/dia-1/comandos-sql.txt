@@ -1,0 +1,23 @@
+# Executa um containenr com o mysql 5.7
+docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7
+
+# Para o container
+docker container stop container-mysql
+
+# Inicia um container
+docker container stop container-mysql
+
+# Remove o container
+docker container rm container-mysql
+
+# Após seguir os passos anteriores, você poderá agora acessar 
+# seu servidor pela linha de comando.
+# Para visualizar quais bancos de dados estão disponíveis, 
+# através do modo interativo do docker, você deve acessar 
+# o terminal do container-mysql:
+docker exec -it container-mysql bash
+
+
+# Em seguida, acessar o mysql dentro do container.
+# Lembre-se de usar a mesma senha usada na criação do container:
+mysql -u root -p
